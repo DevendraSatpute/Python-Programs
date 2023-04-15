@@ -10,7 +10,7 @@
 # Class
 # All classes have a function called __init__(), which is always executed when the class is being initiated.
 
-
+count = 0
 
 class men:
     def __init__(self,n,a):
