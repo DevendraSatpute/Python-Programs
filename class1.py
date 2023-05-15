@@ -5,10 +5,10 @@
 # So that properties and behaviour are bundled into individual objects.
 # Polymorphism
 # Data Encapsulation
-#
-
+# Data Abstraction
+# 
 # Class
-# All classes have a function called __init__(), which is always executed when the class is being initiated.
+# All classes have a function called __init__(), which is always executed when the class is being initiated. 
 
 count = 0
 
