@@ -51,6 +51,23 @@ def exceptionHandlingExample():
     finally:
         print("Thanks for showing interest..")
 
+    #Non primitive data types: list, tuple, set, dictionary
+    try:
+        list_number = [1,2,3,4,6]
+        print(list_number,type(list_number))
+        print(isinstance(list_number,list))
+        tuple_number = (1,2,3,4,6)
+        print(tuple_number, type(tuple_number))
+        print(isinstance(tuple_number,tuple))
+        set_number = {1,2,3,4,4,5,6}
+        print(set_number, type(set_number))
+        print(isinstance(set_number,set))
+        dict_data = {}
+        print(isinstance(dict_data, dict))
+        print(dict_data,type(dict_data))
+    except Exception:
+        print(traceback.format_exc())
+
 if __name__ == '__main__':
     # we are use argparse module for command line argument
     parser = argparse.ArgumentParser()
